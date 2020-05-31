@@ -1,14 +1,22 @@
 .navbar {
 	background: gray;
+	padding: 0 !important;
+}
+.navbar-brand{
+	padding:20px;
+}
+.navbar-toggler
+{
+	margin :10px;
 }
 h2{
 	text-align: center;
 }
- .nav-item .nav-link{
+ .navbar-collapse .navbar-nav .nav-item .nav-link{
 	color: black;
 	text-align: center;
 }
- .nav-item .nav-link:hover{
+ .navbar-collapse .navbar-nav .nav-item .nav-link:hover{
 	background: white;
 	color: black;
 }
